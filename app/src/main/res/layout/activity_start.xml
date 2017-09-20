@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0091ea"
+    tools:context="com.css23.vmarala.thegoodmason.StartActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Have An Account?"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/login_text_color"
+        android:layout_above="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are You A Service Provider ? You Can Join Too"
+        android:layout_marginBottom="33dp"
+        android:layout_above="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/login_text_color"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Using This Service You Agree To Our Terms"
+        android:layout_above="@+id/textView7"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginBottom="12dp"
+        android:textColor="@color/login_text_color"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For More Info See FAQ"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/landing_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:text="Sign Up"
+        android:backgroundTint="@color/white_color"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="16dp"
+        android:text="Sign In" />
+
+</RelativeLayout>
